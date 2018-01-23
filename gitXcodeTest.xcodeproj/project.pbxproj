@@ -12,6 +12,8 @@
 		002E3FF220173F990036F919 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002E3FF020173F990036F919 /* Main.storyboard */; };
 		002E3FF420173F990036F919 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 002E3FF320173F990036F919 /* Assets.xcassets */; };
 		002E3FF720173F990036F919 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002E3FF520173F990036F919 /* LaunchScreen.storyboard */; };
+		002E3FFF2017417F0036F919 /* keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002E3FFE2017417F0036F919 /* keys.swift */; };
+		002E4001201742230036F919 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 002E4000201742230036F919 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		002E3FF320173F990036F919 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		002E3FF620173F990036F919 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		002E3FF820173F990036F919 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		002E3FFE2017417F0036F919 /* keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keys.swift; sourceTree = "<group>"; };
+		002E4000201742230036F919 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				002E3FF320173F990036F919 /* Assets.xcassets */,
 				002E3FF520173F990036F919 /* LaunchScreen.storyboard */,
 				002E3FF820173F990036F919 /* Info.plist */,
+				002E3FFE2017417F0036F919 /* keys.swift */,
+				002E4000201742230036F919 /* .gitignore */,
 			);
 			path = gitXcodeTest;
 			sourceTree = "<group>";
@@ -123,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				002E4001201742230036F919 /* .gitignore in Resources */,
 				002E3FF720173F990036F919 /* LaunchScreen.storyboard in Resources */,
 				002E3FF420173F990036F919 /* Assets.xcassets in Resources */,
 				002E3FF220173F990036F919 /* Main.storyboard in Resources */,
@@ -136,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				002E3FFF2017417F0036F919 /* keys.swift in Sources */,
 				002E3FEF20173F990036F919 /* ViewController.swift in Sources */,
 				002E3FED20173F990036F919 /* AppDelegate.swift in Sources */,
 			);
